@@ -3,7 +3,7 @@ run-name: E2E Tests ${{ inputs.branch }} - ${{ inputs.user }}
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    # - cron: '0 3 * * *'
   workflow_dispatch:
     inputs:
       branch:
